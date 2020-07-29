@@ -1,1 +1,14 @@
 
+python --version
+pip --version
+django-admin --version
+pip install virtualenvwrapper-win
+mkvirtualenv newday
+pip install django
+django-admin --version
+
+
+cd projects
+django-admin startproject newdaypro
+cd newdaypro
+python manage.py runserver
